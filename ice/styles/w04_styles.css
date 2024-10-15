@@ -1,0 +1,34 @@
+body {
+    background-color: #56a0d4;
+
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+    margin-left: 36%;
+    margin-right: 36%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+ol {
+    /* padding-left: 0; */
+    color: black;
+    text-align: left;
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+img {
+    width: 200px;
+}
+
+.quote {
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
