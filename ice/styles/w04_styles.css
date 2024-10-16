@@ -10,12 +10,7 @@ body {
     margin-right: 36%;
 }
 
-h1 {
-    margin-bottom: 30px;
-}
-
 ol {
-    /* padding-left: 0; */
     color: black;
     text-align: left;
     li {
@@ -24,11 +19,28 @@ ol {
 }
 
 img {
-    width: 200px;
+    width: 180px;
+}
+
+.title {
+    width: fit-content;
+    margin-bottom: 20px;
+    
+    margin-left: 31.5%;
+    margin-right: 31.5%;
+}
+.title:hover {
+    color: black;
 }
 
 .quote {
     font-family:'Times New Roman', Times, serif;
-    
 }
 
+.credit {
+    color: black;
+    font-weight: normal;
+
+    padding-left: 60px;
+    padding-right: 60px
+}
