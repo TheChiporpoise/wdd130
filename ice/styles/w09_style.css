@@ -50,8 +50,6 @@ h1 {
 .bottom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 15px;
-    padding-bottom: 15px;
 
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -64,4 +62,14 @@ h1 {
 .bottomtext {
     font-size: 0.6em;
     font-variant-caps: all-small-caps;
+}
+
+.bottom > div {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.middle {
+    border-left: 1px solid #8b8b8b;
+    border-right: 1px solid #8b8b8b;
 }
