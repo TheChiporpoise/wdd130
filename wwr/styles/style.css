@@ -277,10 +277,15 @@ nav a:hover {
 }
 .rivers-grid div {
     border: 8px solid #d0b47b;
+
+    align-content: center;
+
+    overflow: hidden;
 }
 /* image elements */
-#salmon-img img, #snake-img img, #owyhee-img img {
-    width: 100%;
+#salmon-img img, #snake-img img, #owyhee-img {
+    /* width: 100%; */
+    
     height: 100%;
 }
 /* text elements */
@@ -311,8 +316,7 @@ nav a:hover {
 #owyhee-img {
     grid-column: 1/2;
     grid-row: 3/4;
-    width: 100%;
-    height: 100%;
+    
 }
 #owyhee-text {
     grid-column: 2/3;
