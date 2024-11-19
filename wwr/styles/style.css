@@ -283,7 +283,7 @@ nav a:hover {
     overflow: hidden;
 }
 /* image elements (for some reason the last image doesn't take up the full height when written as '#owyhee-img img' but it does when just written as '#owyhee-img')*/
-#salmon-img img, #snake-img img, #owyhee-img {
+#salmon-img img, #snake-img img, #owyhee-img img {
     /* width: 100%; */
     
     height: 100%;
