@@ -101,6 +101,15 @@ nav a:hover {
         color: #780000;
 }
 
+form {
+    margin-top: 20px;
+
+    background-color: #d9c2a3;
+}
+form textarea, form input {
+    background-color: #d9c2a3;
+}
+
 .button-box {
     text-align: center;
 }
